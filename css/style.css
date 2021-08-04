@@ -4,7 +4,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+h1,h2{
     color: #575757;
     font-size: 60px;
     font-weight: bold;
@@ -31,6 +31,9 @@ p{
 }
 .plr-50 {
     padding: 0px 50px;
+}
+.plr-100 {
+    padding: 0px 100px;
 }
 .plr-250 {
     padding: 0px 250px;
@@ -66,11 +69,89 @@ p{
 .about-section-title h2{
 font-size: 40px;
 line-height: 54px;
-color: #707070;
 font-weight: 700;
 }
 .about-me-section{
     background-image: url(../images/about-me-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 100px;
+}
+
+.food-blog-area {
+    margin: 0px 10%;
+    display: flex;
+}
+
+.blog-item {
+    padding: 20px;
+    margin: 15px;
+    width: 30%;
+    /* background: gray; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.recipie-section-title {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+.recipie-section-title h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.blog-title{
+    font-size: 25px;
+    font-weight: 900;
+    color: #18191F;
+}
+.blog-decription{
+    font-size: 18px;
+    color:#04081f;
+}
+.subscribe-section-title h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.subscribe-section.ptb-50 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+input.input-email {
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    width: 50%;
+    margin-right: 15px;
+    height: 30px;
+    font-size: 18px;
+}
+button.button {
+    border: none;
+}
+footer{
+    margin-top:50px;
+    background-color: #0B0D17;
+}
+.footer-section-title h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.footer-section.ptb-50 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-white{
+    color:#fff
+}
+.footer-section-title.ptb-50 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
